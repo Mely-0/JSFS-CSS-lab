@@ -1,0 +1,359 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.contenedor-pro{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.columna-1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 1, 49);
+    display: flex;
+    flex-direction: column;
+    
+}
+.imagen{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.imagen-1{
+    width: 100%;
+    height: 100%;
+}
+.titulo-pro{
+    
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    color: white;
+}
+.titulo{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.subtitulo{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.raya1{
+    width: 80%;
+}
+.habilidades{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-mini{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.titilito{
+    text-align: center;
+    color: white;
+}
+.colum-1{  
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+
+}
+.lista{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.listica{
+display: flex;
+text-align: center;
+list-style: none;
+font-size: 30px;
+color: white;
+}
+.lista-1{
+    width:100%;
+    height: 100%;
+}
+.lis-1{
+    width:100%;
+    height: 100%;
+}
+.raya{
+    width: 80%;
+}
+.listica-1{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+.columna-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.primero{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info-1{
+    width: 100%;
+    height: 100%;
+}
+.lis-2{
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    list-style: none;
+}
+.segundo{
+    width: 100%;
+    height: 20%;
+}
+.tercero{
+    width: 100%;
+    height: 20%;
+}
+.titu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    font-size: 30px;
+    background-color: rgb(6, 1, 49);
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+}
+.titu-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    width: 80%;
+    height: 15%;
+    font-size: 30px;
+    background-color: rgb(6, 1, 49);
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+}
+.titu-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    width: 80%;
+    height: 15%;
+    font-size: 30px;
+    background-color: rgb(6, 1, 49);
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+}
+@media all and (min-width: 800px) {
+    html, body{
+        background-color: #f3e6dc;
+    }
+
+    .contenedor-pro{
+        width: 80%;
+        margin: auto;
+    }
+    .titulo-pro{
+        
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        flex-direction: column;
+        color: white;
+    }
+    .subtitulo{
+        margin-left: 70px;
+        font-size: 30px;
+    }
+    .raya1{
+        width: 80%;
+    }
+    .habilidades{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .columna-2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .primero{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .info-1{
+        width: 80%;
+        height: 60%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 25%;
+    }
+    .lis-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 10px;
+        flex-direction: column;
+        width: 100%;
+        height: 25%;
+        font-size: 23px;
+        list-style: none;
+    }
+    .segundo{
+        width: 100%;
+        height: 30%;
+    }
+    .tercero{
+        width: 100%;
+        height: 30%;
+    }
+    }
+    
+    @media all and (min-width:1280px) {
+        html,body {
+            background-color: #f3e6dc;
+        }
+        .contenedor-pro{
+            width: 55%;
+            height: auto;
+            margin: auto;
+        }
+        .titulo-pro{
+        
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            flex-direction: column;
+            color: white;
+        }
+        .subtitulo{
+            margin-left: 70px;
+            font-size: 30px;
+        }
+        .raya1{
+            width: 80%;
+        }
+        .habilidades{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .columna-2{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .primero{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .info-1{
+            width: 80%;
+            height: 60%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+            margin-right: 25%;
+        }
+        .lis-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 10px;
+            flex-direction: column;
+            width: 100%;
+            height: 25%;
+            font-size: 23px;
+            list-style: none;
+        }
+        .segundo{
+            width: 100%;
+            height: 30%;
+        }
+        .tercero{
+            width: 100%;
+            height: 30%;
+        }
+        
+            }
+    
